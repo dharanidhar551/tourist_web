@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.menu-bar{
+	background:#cce0ff;
+	text-align: center;
+}
+.menu-bar ul{
+	 display: inline-flex;
+	 list-style: none;
+	 color: #fff;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+.active, .menu-bar ul li:hover{
+	background:#737373;
+	border-radius: 3px;
+}
+#slider {
+	overflow:hidden;
+	size: 100% 100%;
+}
+#slider figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	animation:15s slider infinite;
+}
+#slider figure img{
+	float: left;
+	width: 20%
+}
+@keyframes slider{
+	0% {left:0;}
+	20%{left:0;}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95:{left:-300%;}
+	100%{left:-400%}
+}
+.para{
+	width:50%;
+	height:50%;
+	margin-left:20px;
+	margin-top:20px;
+}
+.para p{
+	text-align:justify;
+}
+.nat_img{
+	top:161%;
+	margin-left:60%;
+	display:flex;
+	position:absolute;
+}
+.nat_img img{
+	height:50%;
+	width:70%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
